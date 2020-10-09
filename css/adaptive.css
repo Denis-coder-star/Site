@@ -1,0 +1,346 @@
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 968px;
+		padding: 0 15px;
+	}
+	.about {
+		display: block;
+	}
+	.heroes {
+		margin-bottom: 150px;
+	}
+	.pic_to_right {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.about_show {
+		text-align: center;
+	}
+	.about_show p {
+		width: 780px;
+		margin: 0 auto;
+	}
+	.about__content {
+		width: 100%;
+		margin-left: 0;
+	}
+	.in_short {
+		text-align: center;
+	}
+	.in_short p {
+		width: 780px;
+		margin: 0 auto;
+	}
+	.nav__container {
+		justify-content: space-around;
+	}
+	.specifications {
+		margin-left: 30px;
+		margin-top: 20px;
+	}
+	.specification__text p {
+		width: 200px;
+	}
+	.mission__item p {
+		font-size: 16px;
+	}
+	.pic_to_left {
+		width: 50%;
+	}
+	.about {
+		height: auto;
+	}
+	.mission ul {
+		list-style: none;
+	}
+	.cinema__content {
+		padding-left: 20px;
+	}
+	.cinema__content p {
+		width: 430px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+		padding: 0 15px;
+	}
+	.nav__container {
+		display: block;
+		text-align: center;
+	}
+	.nav__wrapper {
+		margin-top: 20px;
+	}
+	.about_show p {
+		width: 720px;
+	}
+	.in_short p {
+		width: 720px;
+	}
+	.hero__img {
+		display: none !important;
+	}
+	.specification__text p {
+		width: 300px;
+	}
+	.specification {
+		margin-top: 30px;
+	}
+	.creator img {
+		width: 200px;
+		height: 200px;
+	}
+	.teammate {
+		max-width: 100%;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.about__teammate p {
+		width: 500px;
+		margin-top: 10px;
+	}
+	.team h2 {
+		margin-bottom: 50px;
+	}
+	.our_mission {
+		margin-top: 100px;
+	}
+	.pic_to_right,
+	.pic_to_left {
+		display: none;
+	}
+	.mission h2 {
+		text-align: center;
+	}
+	.mission {
+		width: 100%;
+	}
+	.mission p {
+		width: 680px;
+	}
+	.mission ul {
+		list-style: disc;
+		padding-left: 30px;
+	}
+	.cinema__content h2 {
+		text-align: center;
+	}
+	.cinema__content p {
+		padding-left: 30px;
+		width: 680px;
+	}
+	.cinema__content {
+		padding-left: 0;
+	}
+	.merch__wrapper {
+		display: none;
+	}
+	.merch-slider {
+		display: block;
+	}
+	.footer {
+		margin-top: 100px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+		padding: 0 15px;
+	}
+	content {
+		opacity: 1 !important;
+	}
+	.about_show p {
+		width: 500px;
+	}
+	.in_short p {
+		width: 500px;
+	}
+	.in_short span {
+		font-size: 14px;
+	}
+	.creator {
+		display: block;
+		text-align: center;
+	}
+	.about__creator {
+		margin-left: 0;
+	}
+	.about__creator p {
+		width: 500px;
+	}
+	.specifications h3 {
+		font-size: 28px;
+		margin-bottom: 0;
+	}
+	.mission__item p {
+		width: 490px;
+	}
+	.cinema__content p {
+		width: 500px;
+		font-size: 16px;
+	}
+	.merch h2 {
+		line-height: 1.5em;
+		margin-bottom: 50px;
+	}
+	.merch-slider .slick-arrow.slick-prev {
+	  left: 45px;
+	  background: url("../img/arrow_left.svg") 0 0 / 100% no-repeat;
+	}
+	.merch-slider .slick-arrow.slick-next {
+	  right: 45px;
+	  background: url("../img/arrow_right.svg") 0 0 / 100% no-repeat;
+	}
+	.nav__wrapper {
+		display: none;
+	}
+	.creator {
+		display: none;
+	}
+	.adaptive-creator-wrapper {
+		display: block;
+	}
+	.adaptive-creator {
+		margin-top: 30px;
+	}
+	.teammate__wrapper {
+		display: none;
+	}
+	.team-adaptive-wrapper {
+		display: block;
+	}
+	.footer {
+		margin-top: 60px;
+	}
+	.footer__wrapper {
+		display: block !important;
+	}
+	.footer__nav {
+		text-align: center;
+	}
+	.footer__nav h3 {
+		text-align: center;
+	}
+	.footer__contact h3 {
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+	.phone {
+		text-align: center;
+	}
+	.email {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.main__logo {
+		width: 90%;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	h1:before {
+		width: 275px;
+	}
+	.about_show p {
+		width: 90%;
+	}
+	.in_short p {
+		width: 90%;
+	}
+	.in_short h2 {
+		line-height: 1.3em;
+	}
+	.creator-text p {
+		width: 90%;
+	}
+	.name-tm {
+		margin-left: 10px;
+	}
+	.team-block {
+		width: 90%;
+	}
+	.name-tm p {
+		width: 90%;
+	}
+	.team h2 {
+		font-size: 28px;
+		line-height: 1.3em;
+	}
+	.mission h2 {
+		line-height: 1.3em;
+	}
+	.mission__item p {
+		width: 90%;
+	}
+	.cinema__content h2 {
+		line-height: 1.3em;
+	}
+	.cinema__content p {
+		width: 90%;
+	}
+	.merch h2 {
+		font-size: 26px;
+	}
+	.merch-slider .slick-arrow {
+		display: none !important;
+	}
+	.merch-slider .slick-dots {
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	}
+	.merch-slider .slick-dots li {
+	  list-style: none;
+	  margin: 0px 10px;
+	}
+	.merch-slider .slick-dots button {
+	  font-size: 0;
+	  width: 10px;
+	  height: 10px;
+	  background-color: #fec50c;
+	  border-radius: 100px;
+	  border: none;
+	  margin-top: 30px;
+	}
+	.merch-slider .slick-dots li.slick-active button {
+	  background-color: transparent;
+	  border: 1px solid #fff;
+	}
+	.merch-slider .slick-dots button:focus {
+  	  outline: none;
+	}
+	.creators h2 {
+		font-size: 24px;
+	}
+	.hero__icon {
+		display: none !important;
+	}
+	.specification {
+		display: none;
+	}
+	.slider .slick-arrow {
+		display: none !important;
+	}
+	.specifications h3 {
+		font-size: 24px;
+		width: 100%;
+	}
+	.specifications {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.slider-text {
+		line-height: 1.3em;
+		text-align: center;
+	}
+}
